@@ -1,0 +1,3 @@
+Hoy dia estmos en la ciudad de Ayacucho, el 29 de enero del 2023
+estamos probando el uso de GIT. Estamos viendo el capitulo numero
+8 del curso de GIT.
