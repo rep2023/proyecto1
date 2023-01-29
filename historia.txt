@@ -32,3 +32,16 @@ escribimos git add, lo devuelve a estado natural mientras está en staging
 q) git config --list: muestra la lista de configuración de git
 r) git config --list --show-origin: rutas de acceso a la configuración de git
 s) git log archivo.extension: muestra la historia del archivo
+
+*********************************************************************************************************
+
+VOLVER EN EL TIEMPO EN NUESTRO REPOSITORIO UTILIZANDO RESET Y CHECKOUT
+
+El comando: git checkout + ID del commit nos permite viajar en el tiempo. Podemos volver
+a cualquier versión de un archivo específico o incluso del proyecto
+entero. Esta también es la forma de crear ramas y movernos entre ellas
+
+git reset: borramos  los cambios que hicimos después de este commit
+git reset --hard : borrando toda la información que tengamos en el 
+en el area de staging (y perdiendo todo para simpre).
+git reset -- 
