@@ -1,5 +1,34 @@
-Hoy dia estmos en la ciudad de Ayacucho, el 29 de enero del 2023
+﻿
+******************************************************************
+Hoy dia estamos en la ciudad de Ayacucho, el 29 de enero del 2023
 estamos probando el uso de GIT. Estamos viendo el capitulo numero
 8 del curso de GIT.
 Faltó indicar que estamos en el dia Domingo
+
+Siqueremos ver la diferencia entre una versión y otra, no necesariamente todos los cambios desde la 
+creación del archivo, podemos usar el comando: git diff commitA commitB.
+Recuerda que puedes obtener el ID de tus commits con el comando: git log.
+
 Estamos probando algunos comandos de git.
+1) ¿CUALES SON ESOS COMANDOS?
+a) git init: inicializar el repositorio
+b) git add nombre_archivo.extension: agregar el archivo al repositorio
+c) git commit -m "Comentario": agregamos los cambios para el repositorio
+d) git add . : agregar los cambios de la carpeta en la que nos encontramos, agrega todo
+e) git status: visualizar cambios
+f) git log nombre_archivo.extension: histórico de cambios con detalle
+g) git push : emvía a otro  repositorio remoto lo que estamos haciendo
+h) git pull : traer repositorio remoto
+i) pwd: ubicación actual
+j) mkdir: make directory nueva carpeta
+k) touch archivo.extension: crear archivo vacío
+l) cat archivo.extension: muestra el contenido del archivo
+m) history: historial de comandos utilizados durante esa sesión
+n) rm archivo.extension: Eliminación del archivo
+ñ) --help : ayuda sobre el comandos
+o) git checkout: traer cambios realizados
+p) git rm --cached archivo.extension: se utiliza para devolver el archivo que se tiene en ram. Cuando
+escribimos git add, lo devuelve a estado natural mientras está en staging
+q) git config --list: muestra la lista de configuración de git
+r) git config --list --show-origin: rutas de acceso a la configuración de git
+s) git log archivo.extension: muestra la historia del archivo
