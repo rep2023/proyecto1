@@ -1,7 +1,18 @@
 body 
 {
-    color: darkgreen;
+    color: darkblue;
     text-align: center;
     font-family: "Arial";
+    background-color: rgb(104, 173, 107);
 
 }
+h1 {
+    color: rgb(27, 44, 117);
+    text-align: center;
+  }
+  p {
+    color: #000;
+    text-align: justify;
+    font-family: verdana;
+    font-size: 20px;
+  }  
