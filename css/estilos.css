@@ -3,7 +3,8 @@ body
     color: darkblue;
     text-align: center;
     font-family: "Arial";
-    background-color: rgb(104, 173, 107);
+    background-color: rgb(165, 170, 184);
+    
 
 }
 h1 {
@@ -15,4 +16,4 @@ h1 {
     text-align: justify;
     font-family: verdana;
     font-size: 20px;
-  }  
+  } 
